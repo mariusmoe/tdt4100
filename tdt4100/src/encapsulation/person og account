@@ -1,0 +1,21 @@
+Foreslå en alternativ innkapsling av navnet. Hint: del opp.
+
+-et fornavn og ett etternavn.
+
+Foreslå to alternative strategier for å kapsle inn tilstand som er koblet slik navn og e-post er. Hint: 1) samtidig og 2) dekoble.
+
+-eposten kan "genereres" samtidig som en skriver navnet. Eller en kan ha en helt valgfri epost.
+
+
+
+Ta utgangspunkt i koden fra Account-klassen og besvar følgende spørsmål:
+
+Forklar hvorfor metodene over kan sies å være en komplett innkapsling av tilstanden?
+
+-den utelukker all mulig annen input enn det som gir gyldige resultater
+
+
+Er denne klassen data-orientert eller tjeneste-orientert? Begrunn svaret!
+
+-Jeg mener den er en blanding av de to da den både har "getter"/"setter" metoder og holder rede på en balance.
+
