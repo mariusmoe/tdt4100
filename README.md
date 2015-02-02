@@ -1,2 +1,2 @@
 # tdt4100
-school stuff
+school stuff.
