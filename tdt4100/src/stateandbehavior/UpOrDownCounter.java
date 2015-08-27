@@ -10,17 +10,17 @@ public class UpOrDownCounter {
 		this.end = end;
 		
 		if (start==end){
-			throw new IllegalArgumentException("Shit happend D:");
+			throw new IllegalArgumentException("Shit happend D: mest sannsynlig var de to tallene like");
 		}
 	}
 	
-	int getCounter(){
+	public int getCounter(){
 		
 		return counter;
 		
 	}
 
-	boolean count(){
+	public boolean count(){
 		if (counter>end){
 			counter+=-1;
 		}
@@ -35,15 +35,9 @@ public class UpOrDownCounter {
 	}
 	
 	public void run() {
-        System.out.println(counter);
+        
         System.out.println(count());
-        System.out.println(counter);
-        System.out.println(count());
-        System.out.println(counter);
-        System.out.println(count());
-        System.out.println(counter);
-        System.out.println(count());
-        System.out.println(counter);
+        
         
     }
 	
